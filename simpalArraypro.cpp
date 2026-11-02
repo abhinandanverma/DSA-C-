@@ -8,11 +8,11 @@ int main() {
     int arr[] = {10, 20, 30, 40, 50};
 
     // Loop 5 baar chalega
-    // for(int i = 0; i < 5; i++) {
+    for(int i = 0; i < 5; i++) {
 
         // Har baar ek element print hoga
-        cout << arr[0,4] << " ";
-    // }
+        cout << arr[i] << " ";
+    }
 
     return 0;
 }

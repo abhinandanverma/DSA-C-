@@ -16,7 +16,7 @@ int main(){
 
     double n= 1.81;
     cout<<n<<endl; //this (double 8 byte )in the memory.
-    cout<<izeof (num)<<endl; 
+    cout<<sizeof (n)<<endl; 
 
     return 0;
 }
